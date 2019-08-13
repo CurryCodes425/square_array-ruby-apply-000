@@ -1,20 +1,24 @@
 numbers = [1,2,3]
 def square_array(numbers)
-numbers.each do |num|
-  p "#{num**2}"
-end
+first_new_array = []
+numbers.each {|num| first_new_array << num**2}
+ first_new_array
 end
 
 
-p numbers
+
+
 
 new_numbers = [9,10,16,25]
 def square_array(new_numbers)
-  new_numbers.each do |nums|
-    p "#{nums**2}"
-  end
-end
+	second_new_array = []
+  new_numbers.each {|nums| second_new_array << nums ** 2}
+   	second_new_array  
+ end
 
 
-p new_numbers
+
+p numbers
 p square_array(numbers)
+p new_numbers
+p square_array(new_numbers)
