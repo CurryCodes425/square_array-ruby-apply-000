@@ -5,7 +5,7 @@ numbers.each do |num|
 end
 end
 
-square_array(numbers)
+
 p numbers
 
 new_numbers = [9,10,16,25]
@@ -15,6 +15,6 @@ def square_array(new_numbers)
   end
 end
 
-square_array(new_numbers)
+
 p new_numbers
 p square_array(numbers)
