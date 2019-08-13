@@ -13,7 +13,7 @@ new_numbers = [9,10,16,25]
 def square_array(new_numbers)
 	second_new_array = []
   new_numbers.each {|nums| second_new_array << nums ** 2}
-   	second_new_array  
+   	second_new_array
  end
 
 
