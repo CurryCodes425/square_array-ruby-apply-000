@@ -11,7 +11,7 @@ p numbers
 new_numbers = [9,10,16,25]
 def square_array(new_numbers)
   new_numbers.each do |nums|
-    p "#{nums**2}"   
+    p "#{nums**2}"
   end
 end
 
